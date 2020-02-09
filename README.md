@@ -6,6 +6,10 @@ For compilation, that is, to create an executable file, just type the following 
 ```sh
 gcc name_of_file.c -o name_of_executable  
 ```
+To compile files that have the math.h library's pow () function, add -lm to the command line. Example:
+```sh
+gcc name_of_file.c -o name_of_executable -lm
+```
 ## Running 
 Just type:
 ```sh
